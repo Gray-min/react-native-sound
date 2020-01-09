@@ -58,10 +58,15 @@ Then link it automatically using:
 react-native link react-native-sound
 ```
 
+
 **If you encounter this error**
 
 ```
 undefined is not an object (evaluating 'RNSound.IsAndroid')
+```
+```javascript
+cd ios 
+pod install
 ```
 
 **know that this is the most common build issue.** See [#592][] and the several
